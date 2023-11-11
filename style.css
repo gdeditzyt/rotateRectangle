@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(88, 233, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reactangle  {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reactangle div {
+    height: 97%;
+    width: 97%;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1px black;
+    transform: rotate(2deg);
+}
+
+h1 {
+    color: rgb(255, 143, 69);
+    font-size: 14px;
+    text-align: center;
+}
+
+
