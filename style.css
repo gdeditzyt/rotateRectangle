@@ -58,6 +58,10 @@ input {
 .container p {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
 }
 
 .container span {
@@ -65,5 +69,4 @@ input {
     font-size: 1.5rem;
     font-weight: 700;
     margin-right: 5px;
-
 }
