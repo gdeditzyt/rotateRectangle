@@ -54,3 +54,16 @@ input {
     width: 300px;
     margin-bottom: 20px;
 }
+
+.container p {
+    display: flex;
+    align-items: center;
+}
+
+.container span {
+    color: crimson;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 5px;
+
+}
